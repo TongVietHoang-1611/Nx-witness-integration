@@ -1,0 +1,12 @@
+2024-09-16 23:28:58,305 DEBUG	Traceback (most recent call last):
+  File "C:\Users\hoang\Desktop\test_NX\http_proxy_with_feedback.py", line 179, in <module>
+    main()
+  File "C:\Users\hoang\Desktop\test_NX\http_proxy_with_feedback.py", line 174, in main
+    logging.setLevel(logging.getLevelName(CONFIG.log_level))
+AttributeError: module 'logging' has no attribute 'setLevel'
+
+2024-09-16 23:31:54,372 INFO	Start listening on :8000
+2024-09-16 23:35:23,938 INFO	Start listening on :8000
+2024-09-16 23:35:56,202 INFO	Start listening on :8000
+2024-09-16 23:36:54,881 INFO	Start listening on :7001
+2024-09-16 23:37:26,408 INFO	Start listening on :8000
