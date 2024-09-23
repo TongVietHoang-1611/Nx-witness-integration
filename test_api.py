@@ -4,8 +4,8 @@ sys.path += [f'{pathlib.Path(__file__).parent.resolve()}/../common']
 import server_api as api
 
 USERNAME = 'admin'  # local account username or cloud email
-PASSWORD = 'Hoang1234'  # local account password or cloud password
-SERVER_URL = 'https://192.169.1.18:7001/'  # https://<server_ip>:<sever_port>
+PASSWORD = 'pass123'  # local account password or cloud password
+SERVER_URL = 'https://192.169.1.18:7001'  # https://<server_ip>:<sever_port>
 
 
 def main():
